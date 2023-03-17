@@ -27,7 +27,7 @@ Una vez hecho esto, en la carpeta de tu proyecto deberías tener la siguiente es
 - package.json (otro archivo)
 
 Abre el archivo package.json y busca la sección "scripts". Reemplaza el contenido actual por lo siguiente:
-8--------------------
+--------------------
 
 "scripts": {
   "test": "vitest",
@@ -36,7 +36,7 @@ Abre el archivo package.json y busca la sección "scripts". Reemplaza el conteni
 
 --------------------
 Justo debajo de donde se encuentra "devDependencies", agrega lo siguiente:
-9---------------------
+---------------------
 
 "eslintConfig": {
   "extends": "./node_modules/standard/eslintrc.json"
